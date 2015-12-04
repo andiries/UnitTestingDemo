@@ -4,16 +4,8 @@ public class ClassWithDependencies2 {
     private Logger logger;
     private DatabaseLayer database;
 
-    public Logger getLogger() {
-        return logger;
-    }
-
     public void setLogger(Logger logger) {
         this.logger = logger;
-    }
-
-    public DatabaseLayer getDatabase() {
-        return database;
     }
 
     public void setDatabase(DatabaseLayer database) {

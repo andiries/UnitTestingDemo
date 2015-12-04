@@ -8,7 +8,7 @@ public class NoDependenciesClassTest {
 
     @Test
     //Test names:UnitOfWorkName_ScenarioUnderTest_ExpectedBehaviour 
-    public void calculations_AddTwoNumbers_ResultIsSum()
+    public void calculations_AddThreeAndFive_ResultIsEight()
     {
         //Arrange
         NoDependenciesClass sut = new NoDependenciesClass();
@@ -21,6 +21,7 @@ public class NoDependenciesClassTest {
         Integer result = sut.Add(param1, param2);
         
         //Assert
+        //Immer nur ein Assert
         assertEquals(expected, result); 
     }
 

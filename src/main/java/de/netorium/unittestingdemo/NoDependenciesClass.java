@@ -9,7 +9,7 @@ public class NoDependenciesClass {
     public double Divide(Integer a, Integer b)
     {
         if (0 == b)
-            throw new RuntimeException("Damn it! I can't devide by zero");
+            throw new RuntimeException("Damn it! I can't divide by zero");
         
         return a / b;
     }

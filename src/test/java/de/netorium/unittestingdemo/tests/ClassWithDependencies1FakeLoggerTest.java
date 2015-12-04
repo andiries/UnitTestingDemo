@@ -5,7 +5,7 @@ import de.netorium.unittestingdemo.DatabaseLayerImplementation;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class ClassWithDependencies1FakeLokkerTest {
+public class ClassWithDependencies1FakeLoggerTest {
     
     @Test
     public void DbAccess_LoggingFake_WorksLikeACharm() {

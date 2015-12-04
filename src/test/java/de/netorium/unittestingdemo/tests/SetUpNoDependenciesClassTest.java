@@ -34,6 +34,7 @@ public class SetUpNoDependenciesClassTest {
     
     @After
     public void tearDown() {
+        //Send test results to your manager, then delete the file
         File file = new File("testfile.txt");
         file.delete();
     }

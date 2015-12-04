@@ -10,6 +10,6 @@ public class DatabaseLayerImplementation implements DatabaseLayer{
 
     @Override
     public void write(String text) {
-        System.out.println("DatabaseLayerImplementation.write(Object)");
+        System.out.println("DatabaseLayerImplementation.write(String)");
     }
 }
